@@ -1,8 +1,8 @@
 create datebase dotinstall_sns_php;
 
-grant all on dotinstall_sns_php.* to dbuser@localhost identified by 'johnjohn1112';
+grant all on sns_php.* to dbuser@localhost identified by '';
 
-use dotinstall_sns_php
+use sns_php
 
 create table users (
   id int not null auto_increment primary key,
